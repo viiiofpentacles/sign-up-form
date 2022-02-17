@@ -17,12 +17,23 @@ body {
     font-weight: bold;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 h1 {
     font-family: 'Sacramento', cursive;
-    color: white;
-    font-size: 3em;
-    text-align: center;
+    font-size: 3.5rem;
     background-color: rgb(0, 0, 0, 0.5); 
+    margin-top: 25vh;
+}
+
+header p {
+    position: absolute;
+    bottom: 1.2rem;
+    left: 2rem;
+    font-size: 0.8rem;
 }
 
 .page-header {
@@ -30,10 +41,12 @@ h1 {
     background-size: 130%;
     height: 100vh;
     flex: 1;
+    color: white;
+    text-align: center;
 }
 
 .main-form {
-    background-color: rgba(240, 238, 238, 0.89);
+    background-color: rgba(223, 222, 222, 0.89);
     color: rgba(49, 49, 49, 0.863);
     flex: 3;
     display: flex;
@@ -42,12 +55,46 @@ h1 {
 
 .form-head {
     flex: 1;
+    padding: 13vh 0vh 0vh 4vh;
+    font-size: 1.5rem;
+}
+
+.control-container {
+    display: flex;
+}
+
+input,
+label {
+    display: block;
 }
 
 .form-body {
-    flex: 2;
+    flex: 3;
+    background-color: rgb(248, 248, 248);
+    padding: 4vh 0vh 0vh 4vh;
+    margin-bottom: 4vh;
+    box-shadow: 0 0.2rem 1rem 0.2rem rgba(82, 82, 82, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.input-label {
+    margin: 1rem;
 }
 
 .form-submit {
     flex: 1;
+    padding: 4vh 0vh 0vh 4vh;
 }
+
+.form-submit a {
+  
+    color: rgb(29, 29, 92);
+}
+
+button {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
