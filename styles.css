@@ -88,13 +88,20 @@ label {
 }
 
 .form-submit a {
-  
-    color: rgb(29, 29, 92);
+    color: rgb(65, 65, 109);
 }
 
 button {
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1.5rem;
     font-size: 1rem;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    border: none;
+    border-radius: 6px;
 }
 
+button:active {
+    background-color: white;
+    color: rgb(39, 39, 39);
+}
