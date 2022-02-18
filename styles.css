@@ -36,6 +36,11 @@ header p {
     font-size: 0.8rem;
 }
 
+input {
+    border-color: rgb(201, 201, 201);
+    border-radius: 4px;
+}
+
 .page-header {
     background: url(background.jpg);
     background-size: 130%;
@@ -105,3 +110,8 @@ button:active {
     background-color: white;
     color: rgb(39, 39, 39);
 }
+
+button:hover {
+    filter: brightness(1.8)
+}
+
