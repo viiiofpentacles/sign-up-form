@@ -37,8 +37,12 @@ header p {
 }
 
 input {
-    border-color: rgb(201, 201, 201);
+    border: 2px solid rgb(201, 201, 201);
     border-radius: 4px;
+}
+input:focus {
+    outline: none;
+    border: 2px solid rgb(131, 131, 192);
 }
 
 .page-header {
